@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import WeddingSection from './WeddingLayout';
 import { Button } from '@/components/ui/button';
@@ -6,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from '@/hooks/use-toast';
 import { Send, MessageSquare } from 'lucide-react';
+import qrCodeImage from '@/components/assets/qrcode.png'; // Thay thế bằng đường dẫn thực tế của ảnh mã QR
 
 const initialWishes = [
   {
@@ -165,6 +165,16 @@ const WishesSection = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* QR Code and Bank Info */}
+      <div className="mt-16 text-center">
+        <img src={qrCodeImage} alt="QR Code" className="mx-auto mb-4 w-40 h-40" />
+        <p className="text-gray-700">
+          STK: 999999<br />
+          Ngân hàng: MB BANK<br />
+          NGUYEN THI HONG MAY
+        </p>
       </div>
     </WeddingSection>
   );

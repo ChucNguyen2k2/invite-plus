@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Heart, Calendar, ArrowDown, Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import photobg from '@/components/asset/photo6.jpg';
+import photobg from '@/components/assets/photo6.jpg';
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from '@/components/ui/navigation-menu';
 
 const HeroSection = () => {

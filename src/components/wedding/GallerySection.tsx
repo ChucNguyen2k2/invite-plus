@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import WeddingSection from './WeddingLayout';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import photo1 from '@/components/asset/photo1.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
-import photo2 from '@/components/asset/photo17.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
-import photo3 from '@/components/asset/photo8.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
-import photo4 from '@/components/asset/photo15.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
-import photo5 from '@/components/asset/photo7.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
-import photo6 from '@/components/asset/photo16.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo1 from '@/components/assets/photo8.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo2 from '@/components/assets/photo18.png'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo3 from '@/components/assets/photo13.png'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo4 from '@/components/assets/photo20.png'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo5 from '@/components/assets/photo7.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
+import photo6 from '@/components/assets/photo8.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh
 
 const photos = [
   {
@@ -17,12 +17,12 @@ const photos = [
   {
     id: 2,
     url: photo2,
-    alt: 'Cặp đôi nắm tay'
+    alt: 'Ảnh cưới lãng mạn'
   },
   {
     id: 3,
     url: photo3,
-    alt: 'Ảnh cưới lãng mạn'
+    alt: 'Cặp đôi hạnh phúc'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const photos = [
   {
     id: 6,
     url: photo6,
-    alt: 'Bó hoa cưới'
+    alt: 'Chú rể và cô dâu bên lễ đường'
   },
 ];
 

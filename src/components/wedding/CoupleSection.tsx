@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import WeddingSection from './WeddingLayout';
 import { Heart } from 'lucide-react';
-import groomImage from '@/components/asset/photo5.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh chú rể
-import brideImage from '@/components/asset/photo4.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh cô dâu
+import groomImage from '@/components/assets/photo5.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh chú rể
+import brideImage from '@/components/assets/photo4.jpg'; // Thay thế bằng đường dẫn thực tế của ảnh cô dâu
 
 const CoupleSection = () => {
   const [isVisible, setIsVisible] = useState(false);
